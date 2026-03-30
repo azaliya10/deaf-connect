@@ -1,20 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Дешевая выпечка</title>
     <meta charset="UTF-8">
+    <title>Магазин цветов 🌸</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Объявления о дешевой выпечке 🍞</h1>
 
-    <h2>Продаю:</h2>
-    <ul>
-        <li>Пирожки — 20 сом</li>
-        <li>Булочки — 15 сом</li>
-        <li>Хлеб домашний — 30 сом</li>
-    </ul>
+<header>
+    <h1>🌸 Магазин цветов</h1>
+</header>
 
-    <h2>Контакты:</h2>
-    <p>WhatsApp: +996 XXX XXX XXX</p>
+<div class="cart">
+    🛒 Товаров: <span id="count">0</span>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946">
+        <h3>Розы</h3>
+        <p>150 сом</p>
+        <button onclick="addToCart()">Купить</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <h3>Тюльпаны</h3>
+        <p>120 сом</p>
+        <button onclick="addToCart()">Купить</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1470509037663-253afd7f0f51">
+        <h3>Лилии</h3>
+        <p>200 сом</p>
+        <button onclick="addToCart()">Купить</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
